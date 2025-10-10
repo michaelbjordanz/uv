@@ -2,7 +2,7 @@
 #    uv pip compile scripts/requirements/scispacy.in
 annotated-types==0.6.0
     # via pydantic
-black==23.12.1
+black==24.3.0
 blis==0.7.11
     # via thinc
 catalogue==2.0.10
@@ -10,7 +10,7 @@ catalogue==2.0.10
     #   spacy
     #   srsly
     #   thinc
-certifi==2023.11.17
+certifi==2024.7.4
     # via requests
 cffi==1.16.0
     # via cryptography
@@ -25,7 +25,7 @@ confection==0.1.4
 conllu==4.5.3
 coverage==7.4.0
     # via pytest-cov
-cryptography==41.0.7
+cryptography==44.0.1
     # via secretstorage
 cymem==2.0.8
     # via
@@ -37,7 +37,7 @@ docutils==0.20.1
 exceptiongroup==1.2.0
     # via pytest
 flake8==7.0.0
-idna==3.6
+idna==3.7
     # via requests
 importlib-metadata==7.0.1
     # via
@@ -51,7 +51,7 @@ jeepney==0.8.0
     # via
     #   keyring
     #   secretstorage
-jinja2==3.1.2
+jinja2==3.1.6
     # via spacy
 joblib==1.3.2
     # via scikit-learn
@@ -137,7 +137,7 @@ pytz==2023.3.post1
     # via pandas
 readme-renderer==42.0
     # via twine
-requests==2.31.0
+requests==2.32.4
     # via
     #   requests-toolbelt
     #   spacy
@@ -148,12 +148,12 @@ rfc3986==2.0.0
     # via twine
 rich==13.7.0
     # via twine
-scikit-learn==1.3.2
+scikit-learn==1.5.0
 scipy==1.10.1
     # via scikit-learn
 secretstorage==3.3.3
     # via keyring
-setuptools==69.0.3
+setuptools==78.1.1
     # via
     #   spacy
     #   spacy-lookups-data
@@ -184,7 +184,7 @@ tomli==2.0.1
     #   black
     #   mypy
     #   pytest
-tqdm==4.66.1
+tqdm==4.66.3
     # via spacy
 twine==4.0.2
 typer==0.9.0
@@ -203,7 +203,7 @@ typing-extensions==4.9.0
     #   typer
 tzdata==2023.4
     # via pandas
-urllib3==2.1.0
+urllib3==2.5.0
     # via
     #   requests
     #   twine
@@ -212,5 +212,5 @@ wasabi==1.1.2
     # via
     #   spacy
     #   thinc
-zipp==3.17.0
+zipp==3.19.1
     # via importlib-metadata
