@@ -25,7 +25,7 @@ confection==0.1.4
 conllu==4.5.3
 coverage==7.4.0
     # via pytest-cov
-cryptography==41.0.7
+cryptography==46.0.6
     # via secretstorage
 cymem==2.0.8
     # via
@@ -137,7 +137,7 @@ pytz==2023.3.post1
     # via pandas
 readme-renderer==42.0
     # via twine
-requests==2.31.0
+requests==2.33.0
     # via
     #   requests-toolbelt
     #   spacy
