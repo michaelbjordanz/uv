@@ -14,7 +14,7 @@ charset-normalizer==3.3.2
     # via requests
 click==8.1.7
     # via towncrier
-cryptography==41.0.7
+cryptography==46.0.7
     # via pyopenssl
 docutils==0.19
     # via
@@ -41,8 +41,8 @@ pycparser==2.21
     # via cffi
 pygments==2.17.2
     # via sphinx
-pyopenssl==23.3.0
-requests==2.31.0
+pyopenssl==26.0.0
+requests==2.33.0
     # via sphinx
 sniffio==1.3.0
 snowballstemmer==2.2.0
